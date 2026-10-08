@@ -1,3 +1,6 @@
+"""Operaciones matemáticas básicas con validación explícita de argumentos."""
+
+
 def _require_number(value, name="n"):
     if isinstance(value, bool) or not isinstance(value, (int, float)):
         raise TypeError(f"{name} debe ser un número, se recibió {type(value).__name__}")
@@ -9,11 +12,13 @@ def _require_int(value, name="n"):
 
 
 def square(n):
+    """Retorna n² para int o float; rechaza bool y otros tipos con TypeError."""
     _require_number(n)
     return n * n
 
 
 def factorial(n):
+    """Retorna n! para enteros n >= 0; 0! = 1; negativos causan ValueError."""
     _require_int(n)
     if n < 0:
         raise ValueError("factorial no está definido para números negativos")
@@ -24,6 +29,7 @@ def factorial(n):
 
 
 def is_prime(n):
+    """Indica si un entero es primo; los enteros menores que 2 no lo son."""
     _require_int(n)
     if n < 2:
         return False
@@ -40,6 +46,7 @@ def is_prime(n):
 
 
 def gcd(a, b):
+    """Calcula el MCD no negativo de dos enteros; (0, 0) causa ValueError."""
     _require_int(a, "a")
     _require_int(b, "b")
     if a == 0 and b == 0:
@@ -51,6 +58,7 @@ def gcd(a, b):
 
 
 def lcm(a, b):
+    """Calcula el MCM positivo; por contrato, rechaza ceros con ValueError."""
     _require_int(a, "a")
     _require_int(b, "b")
     if a == 0 or b == 0:
