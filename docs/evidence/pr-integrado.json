@@ -1,0 +1,41 @@
+{
+  "commits": [
+    {
+      "authoredDate": "2026-10-08T01:52:00Z",
+      "authors": [
+        {
+          "email": "paz221087@uvg.edu.gt",
+          "id": "U_kgDOBloP5w",
+          "login": "gabrielpaz2003",
+          "name": "Gabriel Paz"
+        }
+      ],
+      "committedDate": "2026-10-08T01:52:00Z",
+      "messageBody": "",
+      "messageHeadline": "demo: introducir error intencional en square para bloquear el merge",
+      "oid": "f4d6d02843ac54bb9879923ca3eac906de0cd1eb"
+    },
+    {
+      "authoredDate": "2026-10-08T01:53:43Z",
+      "authors": [
+        {
+          "email": "paz221087@uvg.edu.gt",
+          "id": "U_kgDOBloP5w",
+          "login": "gabrielpaz2003",
+          "name": "Gabriel Paz"
+        }
+      ],
+      "committedDate": "2026-10-08T01:53:43Z",
+      "messageBody": "",
+      "messageHeadline": "fix: restaurar square y permitir integrar el PR al pasar las pruebas",
+      "oid": "9fea395076700ec4ca7765fe53a8c81908bb5c51"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "35d5d8d1ed044a6bdb913cac19a323bcfb461b26"
+  },
+  "mergedAt": "2026-10-08T01:54:35Z",
+  "number": 1,
+  "state": "MERGED",
+  "url": "https://github.com/gabrielpaz2003/AdminSP7/pull/1"
+}
