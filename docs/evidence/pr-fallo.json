@@ -1,0 +1,18 @@
+{
+  "headRefOid": "f4d6d02843ac54bb9879923ca3eac906de0cd1eb",
+  "mergeStateStatus": "BLOCKED",
+  "number": 1,
+  "statusCheckRollup": [
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-10-08T01:52:22Z",
+      "conclusion": "FAILURE",
+      "detailsUrl": "https://github.com/gabrielpaz2003/AdminSP7/actions/runs/37715046914/job/113109497414",
+      "name": "Pruebas unitarias",
+      "startedAt": "2026-10-08T01:52:12Z",
+      "status": "COMPLETED",
+      "workflowName": "Pruebas unitarias"
+    }
+  ],
+  "url": "https://github.com/gabrielpaz2003/AdminSP7/pull/1"
+}

@@ -1,0 +1,141 @@
+Pruebas unitarias	Ejecutar las pruebas	﻿2026-10-08T01:52:19.4602985Z ##[group]Run python -m pytest -v
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4603278Z ^[[36;1mpython -m pytest -v^[[0m
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4662566Z shell: /usr/bin/bash -e {0}
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4662793Z env:
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4663024Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.16/x64
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4663389Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.16/x64/lib/pkgconfig
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4663744Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.16/x64
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4664051Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.16/x64
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4664361Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.16/x64
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4664669Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.16/x64/lib
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:19.4664951Z ##[endgroup]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0064090Z ============================= test session starts ==============================
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0065216Z platform linux -- Python 3.13.16, pytest-8.3.3, pluggy-1.6.0 -- /opt/hostedtoolcache/Python/3.13.16/x64/bin/python
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0065955Z cachedir: .pytest_cache
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0066332Z rootdir: /home/runner/work/AdminSP7/AdminSP7
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0377133Z collecting ... collected 77 items
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0377817Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0483973Z tests/test_basic.py::TestSquare::test_positive_integer FAILED            [  1%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0510831Z tests/test_basic.py::TestSquare::test_negative_integer FAILED            [  2%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0537216Z tests/test_basic.py::TestSquare::test_float FAILED                       [  3%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0562363Z tests/test_basic.py::TestSquare::test_zero PASSED                        [  5%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0563189Z tests/test_basic.py::TestSquare::test_invalid_type_raises[4] PASSED      [  6%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0563821Z tests/test_basic.py::TestSquare::test_invalid_type_raises[None] PASSED   [  7%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0564504Z tests/test_basic.py::TestSquare::test_invalid_type_raises[bad2] PASSED   [  9%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0565130Z tests/test_basic.py::TestSquare::test_invalid_type_raises[True] PASSED   [ 10%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0567045Z tests/test_basic.py::TestSquare::test_invalid_type_raises[False] PASSED  [ 11%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0582322Z tests/test_basic.py::TestFactorial::test_small_number PASSED             [ 12%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0583096Z tests/test_basic.py::TestFactorial::test_larger_number PASSED            [ 14%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0583798Z tests/test_basic.py::TestFactorial::test_zero_and_one[0] PASSED          [ 15%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0584871Z tests/test_basic.py::TestFactorial::test_zero_and_one[1] PASSED          [ 16%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0592090Z tests/test_basic.py::TestFactorial::test_negative_raises PASSED          [ 18%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0602244Z tests/test_basic.py::TestFactorial::test_invalid_type_raises[2.5] PASSED [ 19%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0603338Z tests/test_basic.py::TestFactorial::test_invalid_type_raises[5] PASSED   [ 20%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0605431Z tests/test_basic.py::TestFactorial::test_invalid_type_raises[None] PASSED [ 22%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0610330Z tests/test_basic.py::TestFactorial::test_invalid_type_raises[True] PASSED [ 23%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0615214Z tests/test_basic.py::TestFactorial::test_invalid_type_raises[False] PASSED [ 24%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0620008Z tests/test_basic.py::TestIsPrime::test_primes[2] PASSED                  [ 25%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0624883Z tests/test_basic.py::TestIsPrime::test_primes[3] PASSED                  [ 27%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0629534Z tests/test_basic.py::TestIsPrime::test_primes[5] PASSED                  [ 28%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0634453Z tests/test_basic.py::TestIsPrime::test_primes[13] PASSED                 [ 29%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0639238Z tests/test_basic.py::TestIsPrime::test_primes[97] PASSED                 [ 31%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0644229Z tests/test_basic.py::TestIsPrime::test_primes[7919] PASSED               [ 32%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0648912Z tests/test_basic.py::TestIsPrime::test_composites[4] PASSED              [ 33%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0653704Z tests/test_basic.py::TestIsPrime::test_composites[9] PASSED              [ 35%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0658386Z tests/test_basic.py::TestIsPrime::test_composites[15] PASSED             [ 36%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0663179Z tests/test_basic.py::TestIsPrime::test_composites[25] PASSED             [ 37%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0668122Z tests/test_basic.py::TestIsPrime::test_composites[100] PASSED            [ 38%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0672674Z tests/test_basic.py::TestIsPrime::test_composites[7917] PASSED           [ 40%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0677493Z tests/test_basic.py::TestIsPrime::test_less_than_two_is_not_prime[1] PASSED [ 41%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0681705Z tests/test_basic.py::TestIsPrime::test_less_than_two_is_not_prime[0] PASSED [ 42%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0686741Z tests/test_basic.py::TestIsPrime::test_less_than_two_is_not_prime[-7] PASSED [ 44%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0691700Z tests/test_basic.py::TestIsPrime::test_invalid_type_raises[7.0] PASSED   [ 45%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0696507Z tests/test_basic.py::TestIsPrime::test_invalid_type_raises[7] PASSED     [ 46%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0701488Z tests/test_basic.py::TestIsPrime::test_invalid_type_raises[None] PASSED  [ 48%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0706237Z tests/test_basic.py::TestIsPrime::test_invalid_type_raises[True] PASSED  [ 49%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0711170Z tests/test_basic.py::TestIsPrime::test_invalid_type_raises[False] PASSED [ 50%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0715699Z tests/test_basic.py::TestGcd::test_common_divisor PASSED                 [ 51%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0719800Z tests/test_basic.py::TestGcd::test_coprime PASSED                        [ 53%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0725025Z tests/test_basic.py::TestGcd::test_with_zero[0-9] PASSED                 [ 54%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0729823Z tests/test_basic.py::TestGcd::test_with_zero[9-0] PASSED                 [ 55%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0742279Z tests/test_basic.py::TestGcd::test_with_zero[0--9] PASSED                [ 57%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0762185Z tests/test_basic.py::TestGcd::test_with_zero[-9-0] PASSED                [ 58%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0782559Z tests/test_basic.py::TestGcd::test_negative_numbers[-12-18] PASSED       [ 59%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0783311Z tests/test_basic.py::TestGcd::test_negative_numbers[12--18] PASSED       [ 61%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0784139Z tests/test_basic.py::TestGcd::test_negative_numbers[-12--18] PASSED      [ 62%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0784827Z tests/test_basic.py::TestGcd::test_both_zero_raises PASSED               [ 63%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0785482Z tests/test_basic.py::TestGcd::test_invalid_type_raises[0-12.0] PASSED    [ 64%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0786146Z tests/test_basic.py::TestGcd::test_invalid_type_raises[0-12] PASSED      [ 66%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0786937Z tests/test_basic.py::TestGcd::test_invalid_type_raises[0-None] PASSED    [ 67%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0787686Z tests/test_basic.py::TestGcd::test_invalid_type_raises[0-True] PASSED    [ 68%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0788396Z tests/test_basic.py::TestGcd::test_invalid_type_raises[0-False] PASSED   [ 70%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0789119Z tests/test_basic.py::TestGcd::test_invalid_type_raises[1-12.0] PASSED    [ 71%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0790119Z tests/test_basic.py::TestGcd::test_invalid_type_raises[1-12] PASSED      [ 72%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0793625Z tests/test_basic.py::TestGcd::test_invalid_type_raises[1-None] PASSED    [ 74%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0798958Z tests/test_basic.py::TestGcd::test_invalid_type_raises[1-True] PASSED    [ 75%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0804229Z tests/test_basic.py::TestGcd::test_invalid_type_raises[1-False] PASSED   [ 76%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0808336Z tests/test_basic.py::TestLcm::test_common_multiple PASSED                [ 77%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0813079Z tests/test_basic.py::TestLcm::test_coprime PASSED                        [ 79%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0818097Z tests/test_basic.py::TestLcm::test_negative_numbers[-4-6] PASSED         [ 80%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0823316Z tests/test_basic.py::TestLcm::test_negative_numbers[4--6] PASSED         [ 81%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0828186Z tests/test_basic.py::TestLcm::test_negative_numbers[-4--6] PASSED        [ 83%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0833381Z tests/test_basic.py::TestLcm::test_zero_raises[0-5] PASSED               [ 84%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0838375Z tests/test_basic.py::TestLcm::test_zero_raises[5-0] PASSED               [ 85%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0843588Z tests/test_basic.py::TestLcm::test_zero_raises[0-0] PASSED               [ 87%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0848579Z tests/test_basic.py::TestLcm::test_invalid_type_raises[0-4.0] PASSED     [ 88%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0853865Z tests/test_basic.py::TestLcm::test_invalid_type_raises[0-4] PASSED       [ 89%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0859069Z tests/test_basic.py::TestLcm::test_invalid_type_raises[0-None] PASSED    [ 90%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0864211Z tests/test_basic.py::TestLcm::test_invalid_type_raises[0-True] PASSED    [ 92%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0869192Z tests/test_basic.py::TestLcm::test_invalid_type_raises[0-False] PASSED   [ 93%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0874387Z tests/test_basic.py::TestLcm::test_invalid_type_raises[1-4.0] PASSED     [ 94%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0879358Z tests/test_basic.py::TestLcm::test_invalid_type_raises[1-4] PASSED       [ 96%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0884554Z tests/test_basic.py::TestLcm::test_invalid_type_raises[1-None] PASSED    [ 97%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0889380Z tests/test_basic.py::TestLcm::test_invalid_type_raises[1-True] PASSED    [ 98%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0909288Z tests/test_basic.py::TestLcm::test_invalid_type_raises[1-False] PASSED   [100%]
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0909788Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0910088Z =================================== FAILURES ===================================
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0910658Z _______________________ TestSquare.test_positive_integer _______________________
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0911029Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0911245Z self = <tests.test_basic.TestSquare object at 0x7f4a0ea01950>
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0911705Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0911837Z     def test_positive_integer(self):
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0912193Z >       assert square(4) == 16
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0912511Z E       assert 8 == 16
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0912820Z E        +  where 8 = square(4)
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0913035Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0913171Z tests/test_basic.py:8: AssertionError
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0913757Z _______________________ TestSquare.test_negative_integer _______________________
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0914204Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0914683Z self = <tests.test_basic.TestSquare object at 0x7f4a0ea01d10>
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0915021Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0915143Z     def test_negative_integer(self):
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0915475Z >       assert square(-3) == 9
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0915803Z E       assert -6 == 9
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0916096Z E        +  where -6 = square(-3)
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0916318Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0916453Z tests/test_basic.py:11: AssertionError
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0916944Z ____________________________ TestSquare.test_float _____________________________
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0917317Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0917540Z self = <tests.test_basic.TestSquare object at 0x7f4a0e9b5ba0>
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0917869Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0918002Z     def test_float(self):
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0918341Z >       assert square(1.5) == pytest.approx(2.25)
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0919224Z E       assert 3.0 == 2.25 ± 2.3e-06
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0919552Z E         
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0919797Z E         comparison failed
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0920095Z E         Obtained: 3.0
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0920446Z E         Expected: 2.25 ± 2.3e-06
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0920660Z 
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0920797Z tests/test_basic.py:14: AssertionError
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0921205Z =========================== short test summary info ============================
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0921975Z FAILED tests/test_basic.py::TestSquare::test_positive_integer - assert 8 == 16
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0922520Z  +  where 8 = square(4)
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0922984Z FAILED tests/test_basic.py::TestSquare::test_negative_integer - assert -6 == 9
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0923515Z  +  where -6 = square(-3)
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0924091Z FAILED tests/test_basic.py::TestSquare::test_float - assert 3.0 == 2.25 ± 2.3e-06
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0924788Z   
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0925044Z   comparison failed
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0925322Z   Obtained: 3.0
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0925649Z   Expected: 2.25 ± 2.3e-06
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.0926039Z ========================= 3 failed, 74 passed in 0.08s =========================
+Pruebas unitarias	Ejecutar las pruebas	2026-10-08T01:52:20.1127026Z ##[error]Process completed with exit code 1.
