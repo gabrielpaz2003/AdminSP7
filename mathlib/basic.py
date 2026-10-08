@@ -14,7 +14,7 @@ def _require_int(value, name="n"):
 def square(n):
     """Retorna n² para int o float; rechaza bool y otros tipos con TypeError."""
     _require_number(n)
-    return n * n
+    return n + n  # Error intencional para demostrar el bloqueo del PR.
 
 
 def factorial(n):
